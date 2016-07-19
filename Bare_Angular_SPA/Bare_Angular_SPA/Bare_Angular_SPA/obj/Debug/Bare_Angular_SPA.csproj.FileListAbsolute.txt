@@ -1,0 +1,14 @@
+C:\Users\Russell\git\Angular_Apps\Bare_Angular_SPA\Bare_Angular_SPA\Bare_Angular_SPA\bin\Bare_Angular_SPA.dll.config
+C:\Users\Russell\git\Angular_Apps\Bare_Angular_SPA\Bare_Angular_SPA\Bare_Angular_SPA\bin\Bare_Angular_SPA.dll
+C:\Users\Russell\git\Angular_Apps\Bare_Angular_SPA\Bare_Angular_SPA\Bare_Angular_SPA\bin\Bare_Angular_SPA.pdb
+C:\Users\Russell\git\Angular_Apps\Bare_Angular_SPA\Bare_Angular_SPA\Bare_Angular_SPA\bin\Newtonsoft.Json.dll
+C:\Users\Russell\git\Angular_Apps\Bare_Angular_SPA\Bare_Angular_SPA\Bare_Angular_SPA\bin\System.Net.Http.Formatting.dll
+C:\Users\Russell\git\Angular_Apps\Bare_Angular_SPA\Bare_Angular_SPA\Bare_Angular_SPA\bin\System.Web.Http.dll
+C:\Users\Russell\git\Angular_Apps\Bare_Angular_SPA\Bare_Angular_SPA\Bare_Angular_SPA\bin\System.Web.Http.WebHost.dll
+C:\Users\Russell\git\Angular_Apps\Bare_Angular_SPA\Bare_Angular_SPA\Bare_Angular_SPA\bin\Newtonsoft.Json.xml
+C:\Users\Russell\git\Angular_Apps\Bare_Angular_SPA\Bare_Angular_SPA\Bare_Angular_SPA\bin\System.Net.Http.Formatting.xml
+C:\Users\Russell\git\Angular_Apps\Bare_Angular_SPA\Bare_Angular_SPA\Bare_Angular_SPA\bin\System.Web.Http.xml
+C:\Users\Russell\git\Angular_Apps\Bare_Angular_SPA\Bare_Angular_SPA\Bare_Angular_SPA\bin\System.Web.Http.WebHost.xml
+C:\Users\Russell\git\Angular_Apps\Bare_Angular_SPA\Bare_Angular_SPA\Bare_Angular_SPA\obj\Debug\Bare_Angular_SPA.csprojResolveAssemblyReference.cache
+C:\Users\Russell\git\Angular_Apps\Bare_Angular_SPA\Bare_Angular_SPA\Bare_Angular_SPA\obj\Debug\Bare_Angular_SPA.dll
+C:\Users\Russell\git\Angular_Apps\Bare_Angular_SPA\Bare_Angular_SPA\Bare_Angular_SPA\obj\Debug\Bare_Angular_SPA.pdb

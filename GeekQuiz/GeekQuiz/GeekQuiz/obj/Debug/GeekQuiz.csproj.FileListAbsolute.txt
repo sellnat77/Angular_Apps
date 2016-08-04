@@ -8,7 +8,6 @@ C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\EntityFramework
 C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\Microsoft.AspNet.Identity.Core.dll
 C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\Microsoft.AspNet.Scaffolding.EntityFramework.12.0.dll
 C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\Microsoft.Data.Entity.Design.Extensibility.dll
 C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\Microsoft.Owin.dll
 C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\Microsoft.Owin.Host.SystemWeb.dll
@@ -33,8 +32,6 @@ C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\System.Web.WebP
 C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\System.Web.WebPages.dll
 C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\System.Web.WebPages.Razor.dll
 C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\WebGrease.dll
-C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\Microsoft.AspNet.Scaffolding.12.0.dll
-C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\Microsoft.AspNet.Scaffolding.EntityFramework.12.0.xml
 C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\System.Web.Helpers.xml
 C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\System.Web.Mvc.xml
 C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\System.Web.Optimization.xml
@@ -61,7 +58,6 @@ C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\Microsoft.Owin.
 C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\Microsoft.AspNet.Scaffolding.12.0.xml
 C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\de\Microsoft.Data.Entity.Design.Extensibility.resources.dll
 C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\es\Microsoft.Data.Entity.Design.Extensibility.resources.dll
 C:\Users\Russell\git\Angular_Apps\GeekQuiz\GeekQuiz\GeekQuiz\bin\fr\Microsoft.Data.Entity.Design.Extensibility.resources.dll

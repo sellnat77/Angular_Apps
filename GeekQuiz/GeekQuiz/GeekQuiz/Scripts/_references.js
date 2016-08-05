@@ -8,3 +8,4 @@
 /// <reference path="Factories/AuthHttpResponseInterceptor.js" />
 /// <reference path="controllers/registercontroller.js" />
 /// <reference path="factories/loginfactory.js" />
+/// <reference path="factories/registrationfactory.js" />

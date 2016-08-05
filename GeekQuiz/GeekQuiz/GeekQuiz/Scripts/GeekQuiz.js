@@ -1,4 +1,4 @@
-﻿var GeekQuiz = angular.module('GeekQuiz', [ 'ngRoute' ]);
+﻿var GeekQuiz = angular.module('GeekQuiz', ['ngRoute', 'ui.bootstrap']);
 
 GeekQuiz.controller('LandingPageController', LandingPageController);
 GeekQuiz.controller('LoginController', LoginController);
@@ -6,8 +6,12 @@ GeekQuiz.controller('RegisterController', RegisterController);
 
 GeekQuiz.factory('AuthHttpResponseInterceptor', AuthHttpResponseInterceptor);
 GeekQuiz.factory('LoginFactory', LoginFactory);
+GeekQuiz.factory('RegistrationFactory', RegistrationFactory);
 
-var configFunction = function ($routeProvider, $httpProvider) {
+var configFunction = function ($routeProvider, $httpProvider, $locationProvider) {
+
+    $locationProvider.hashPrefix('!').html5Mode(true);
+
     $routeProvider.
         when('/routeOne', {
             templateUrl: 'routesDemo/One'
@@ -28,6 +32,6 @@ var configFunction = function ($routeProvider, $httpProvider) {
         });
     $httpProvider.interceptors.push('AuthHttpResponseInterceptor')
 }
-configFunction.$inject = ['$routeProvider', '$httpProvider'];
+configFunction.$inject = ['$routeProvider', '$httpProvider', '$locationProvider'];
 
 GeekQuiz.config(configFunction);

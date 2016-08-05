@@ -197,6 +197,7 @@
     <Content Include="Scripts\Controllers\RegisterController.js" />
     <Content Include="Scripts\Factories\AuthHttpResponseInterceptor.js" />
     <Content Include="Scripts\Factories\LoginFactory.js" />
+    <Content Include="Scripts\Factories\RegistrationFactory.js" />
     <Content Include="Scripts\GeekQuiz.js" />
     <Content Include="Scripts\Controllers\LandingPageController.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />

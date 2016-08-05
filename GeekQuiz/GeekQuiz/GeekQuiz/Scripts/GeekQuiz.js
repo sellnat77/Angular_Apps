@@ -2,8 +2,10 @@
 
 GeekQuiz.controller('LandingPageController', LandingPageController);
 GeekQuiz.controller('LoginController', LoginController);
+GeekQuiz.controller('RegisterController', RegisterController);
 
 GeekQuiz.factory('AuthHttpResponseInterceptor', AuthHttpResponseInterceptor);
+GeekQuiz.factory('LoginFactory', LoginFactory);
 
 var configFunction = function ($routeProvider, $httpProvider) {
     $routeProvider.
@@ -19,6 +21,10 @@ var configFunction = function ($routeProvider, $httpProvider) {
         .when('/login', {
             templateUrl: 'Account/Login',
             controller : LoginController
+        })
+        .when('/register', {
+            templateUrl: 'Account/Register',
+            controller : RegisterController
         });
     $httpProvider.interceptors.push('AuthHttpResponseInterceptor')
 }

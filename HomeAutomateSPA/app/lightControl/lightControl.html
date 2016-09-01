@@ -1,0 +1,72 @@
+<h1> LIGHTS! </h1>
+<div id="nav">
+  <!--
+  <button ng-click="listLights()">List lights</button>
+  <button ng-click="resetLight()">Reset</button>
+  <button ng-click="togglePower()">Toggle Power</button>
+  <button ng-click="breathe()">Breathe Effect</button>
+  <button ng-click="pulse()">Pulse Effect</button>
+  <button ng-click="listScenes()">List Scenes</button>
+  <button ng-click="startScene()">Activate Scene</button>
+-->
+
+  <input type="radio" name="func" ng-model="light.func" value="ListLights" checked>List Lights
+  <input type="radio" name="func" ng-model="light.func" value="Reset">Reset
+  <input type="radio" name="func" ng-model="light.func" value="TogglePower">Toggle Power
+  <input type="radio" name="func" ng-model="light.func" value="Breathe">Breathe Effect
+  <input type="radio" name="func" ng-model="light.func" value="Pulse">Pulse Effect
+  <input type="radio" name="func" ng-model="light.func" value="ListScenes">List Scenes
+  <input type="radio" name="func" ng-model="light.func" value="ActivateScene">Activate Scene
+
+</div>
+<div id="messages">
+  <div ng-repeat="key in jsonResp">
+    <br>
+    {{ key }}
+  </div>
+  <table>
+    <tr>
+      <td>API Key:</td>
+      <td><input type="text" ng-model="light.auth"/></td>
+    </tr>
+    <tr>
+      <td>Color:</td>
+      <td><color-picker ng-model="light.color" id="toColorPicker">a</color-picker>
+      <input type="text" ng-model="light.color" ng-init="color = '#f05a28'" id="toColorBox"></td>
+    </tr>
+    <tr>
+      <td>From Color:</td>
+      <td><color-picker ng-model="light.fromcolor" id="fromColorPicker">b</color-picker>
+      <input type="text" ng-model="light.fromcolor" ng-init="fromcolor = '#f05a28'" id="fromColorBox"></td>
+    </tr>
+    <tr>
+      <td>Period</td>
+      <td><input type="range" ng-model="light.period" min="0.0"/></td>
+    </tr>
+    <tr>
+      <td>Cycles</td>
+      <td><input type="range" ng-model="light.cycles" min="0.0"/></td>
+    </tr>
+    <tr>
+      <td>Persist</td>
+      <td><input type="radio" name="persist" ng-model="light.persist" checked>True
+          <input type="radio" name="persist" ng-model="light.persist">False</td>
+    </tr>
+    <tr>
+      <td>Power on if off</td>
+      <td><input type="radio" name="power" ng-model="light.powerOn" checked>ON
+          <input type="radio" name="power" ng-model="light.powerOn">OFF</td>
+    </tr>
+    <tr>
+      <td>Peak</td>
+      <td><input type="range" step="0.01" ng-model="light.peak" min="0.0" max="1.0"/></td>
+    </tr>
+    <tr>
+      <td><button class="button" ng-click="reset()">RESET</button></td>
+      <td><button class="button" ng-click="update(light)">SAVE</button></td>
+    </tr>
+
+  </table>
+
+
+</div>
